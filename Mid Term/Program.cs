@@ -14,6 +14,7 @@ namespace Mid_Term
         {
 
             ShoppingTwo.GetItemFromUser(TextFile.ReadFromTxt(@"productlist.txt"));
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine();
             ShoppingTwo.UpdateMenu();
             
